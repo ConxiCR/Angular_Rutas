@@ -1,0 +1,8 @@
+.rutas{
+    display: flex;
+    flex-direction: column;
+}
+.activa{
+    color: red;
+    background-color: lavenderblush;
+}

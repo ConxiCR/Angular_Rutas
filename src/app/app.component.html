@@ -1,4 +1,8 @@
 <h1>Cabecera</h1>
 <h2>Subtítulo</h2>
-
+<div class="rutas">
+    <a [routerLink]="['/sobre']" routerLinkActive="activa">Sobre Mi</a>
+    <a [routerLink]="['/informacion']">Información de la página</a>
+    <a [routerLink]="['/contacto']">Contacta con nosotros</a>
+</div>
 <router-outlet></router-outlet>
