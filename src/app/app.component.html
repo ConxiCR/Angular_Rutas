@@ -6,3 +6,10 @@
     <a [routerLink]="['/contacto']">Contacta con nosotros</a>
 </div>
 <router-outlet></router-outlet>
+<!--defino botones-->
+<div class="botones">
+    <button (click)="onClick('sobre')">Sobre Mi</button>
+    <button (click)="onClick('informacion')">Información de la página</button>
+    <button (click)="onClick('contacto')">Contacta con nosotros</button>
+</div>
+
